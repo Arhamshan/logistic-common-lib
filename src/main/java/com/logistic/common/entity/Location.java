@@ -9,17 +9,23 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Events {
+public class Location {
 
     private Long id;
 
-    private String cons_item_id;
+    private String locationCode;
 
-    private String event_type;
+    private String name;
 
-    private String event_location_code;
+    private String type;
 
-    private String description;
+    private String city;
+
+    private String county;
+
+    private String latitude;
+
+    private String longitude;
 
     private LocalDateTime createdDate;
 

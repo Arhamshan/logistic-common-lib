@@ -9,25 +9,17 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Consignments {
+public class Event {
 
     private Long id;
 
-    private String consignment_id;
+    private Item item;
 
-    private String sender_contact_id;
+    private String eventType;
 
-    private String destination_contact_id;
+    private String eventLocationCode;
 
-    private String status;
-
-    private Float weight;
-
-    private Float height;
-
-    private Float length;
-
-    private Float width;
+    private String description;
 
     private LocalDateTime createdDate;
 

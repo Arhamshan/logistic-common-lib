@@ -9,23 +9,17 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Locations {
+public class Item {
 
     private Long id;
 
-    private String location_code;
+    private Consignment consignment;
 
-    private String name;
+    private String item_id;
 
-    private String type;
+    private String status;
 
-    private String city;
-
-    private String county;
-
-    private String latitude;
-
-    private String longitude;
+    private String currentLocationCode;
 
     private LocalDateTime createdDate;
 
