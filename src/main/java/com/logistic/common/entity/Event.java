@@ -21,6 +21,14 @@ public class Event {
 
     private String description;
 
+    private Float weight;
+
+    private Float height;
+
+    private Float length;
+
+    private Float width;
+
     private LocalDateTime createdDate;
 
     private String createdBy;
