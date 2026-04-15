@@ -15,7 +15,7 @@ public class Item {
 
     private Consignment consignment;
 
-    private String item_id;
+    private String itemId;
 
     private String status;
 

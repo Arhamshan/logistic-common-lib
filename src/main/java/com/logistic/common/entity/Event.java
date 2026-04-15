@@ -1,5 +1,6 @@
 package com.logistic.common.entity;
 
+import com.logistic.common.enums.EventType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ public class Event {
 
     private Item item;
 
-    private String eventType;
+    private EventType eventType;
 
     private String eventLocationCode;
 

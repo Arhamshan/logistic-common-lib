@@ -3,7 +3,7 @@ package com.logistic.common.exception;
 import lombok.Getter;
 
 @Getter
-public class CreateConsignmentException extends Exception {
+public class LogisticsException extends Exception {
 
 	private static final long serialVersionUID = 1L;
 
@@ -11,20 +11,20 @@ public class CreateConsignmentException extends Exception {
 
 	protected Exception e;
 
-	public CreateConsignmentException(int errorCode) {
+	public LogisticsException(int errorCode) {
 		this.errorCode = errorCode;
 	}
 	
-	public CreateConsignmentException(String message) {
+	public LogisticsException(String message) {
 		super(message);
 	}
 	
-	public CreateConsignmentException(int errorCode, String message) {
+	public LogisticsException(int errorCode, String message) {
 		super(message);
 		this.errorCode = errorCode;		
 	}
 
-    public CreateConsignmentException(int errorCode, String message, Exception e) {
+    public LogisticsException(int errorCode, String message, Exception e) {
 		super(message);
 		this.errorCode = errorCode;
 		this.e = e;
