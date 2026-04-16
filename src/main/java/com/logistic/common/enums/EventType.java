@@ -2,19 +2,10 @@ package com.logistic.common.enums;
 
 
 public enum EventType {
-    BOOKED("Shipment Booked"),
-    PICKED_UP("Picked Up"),
-    IN_TRANSIT("In Transit"),
-    OUT_FOR_DELIVERY("Out for Delivery"),
-    DELIVERED("Delivered");
+    PARCEL_BOOKED,
+    PARCEL_PICKED_UP,
+    PARCEL_IN_TRANSIT,
+    PARCEL_OUT_FOR_DELIVERY,
+    PARCEL_DELIVERED;
 
-    private final String description;
-
-    EventType(String description) {
-        this.description = description;
-    }
-
-    public String getDescription() {
-        return description;
-    }
 }

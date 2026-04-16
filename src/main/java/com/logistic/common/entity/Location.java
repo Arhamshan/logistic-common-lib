@@ -1,5 +1,6 @@
 package com.logistic.common.entity;
 
+import com.logistic.common.enums.LocationType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ public class Location {
 
     private String name;
 
-    private String type;
+    private LocationType type;
 
     private String city;
 

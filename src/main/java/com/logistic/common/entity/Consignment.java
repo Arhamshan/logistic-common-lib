@@ -1,5 +1,6 @@
 package com.logistic.common.entity;
 
+import com.logistic.common.enums.ConsignmentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,7 +20,7 @@ public class Consignment {
 
     private Contact destinationContact;
 
-    private String status;
+    private ConsignmentStatus status;
 
     private LocalDateTime createdDate;
 

@@ -1,5 +1,6 @@
 package com.logistic.common.entity;
 
+import com.logistic.common.enums.ItemStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ public class Item {
 
     private String itemId;
 
-    private String status;
+    private ItemStatus status;
 
     private String currentLocationCode;
 
