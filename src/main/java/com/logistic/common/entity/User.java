@@ -1,5 +1,7 @@
 package com.logistic.common.entity;
 
+import com.logistic.common.enums.Role;
+import com.logistic.common.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,9 +18,9 @@ public class User {
 
         private String password;
 
-        private String role;
+        private Role role;
 
-        private String status;
+        private Status status;
 
         private LocalDateTime createdDate;
 
