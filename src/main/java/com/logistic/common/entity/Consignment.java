@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -29,4 +30,13 @@ public class Consignment {
     private LocalDateTime updatedDate;
 
     private String updatedBy;
+
+    // Transactional
+    private List<Item> items;
+
+    public Consignment(Long consId, String consignmentId) {
+        this.id = consId;
+        this.consignmentId = consignmentId;
+    }
+
 }
