@@ -2,7 +2,7 @@ package com.logistic.common.enums;
 
 public enum Role {
     ADMIN,
-    USER;
+    OPERATIONAL_USER;
 
     public static Role from(String value) {
         try {
