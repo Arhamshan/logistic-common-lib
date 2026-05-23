@@ -21,7 +21,7 @@ public class Pod {
 
     private String remarks;
 
-    private String podPath;         // base64 text for now / S3 URL later
+    private String podPath;
 
     private LocalDateTime deliveredAt;
 
