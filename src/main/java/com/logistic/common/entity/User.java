@@ -29,4 +29,7 @@ public class User {
         private LocalDateTime updatedDate;
 
         private String updatedBy;
+
+        // Transactional Attribute
+        private String token;
 }
