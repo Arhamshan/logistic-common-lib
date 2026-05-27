@@ -37,4 +37,6 @@ public class Item {
     private LocalDateTime updatedDate;
 
     private String updatedBy;
+
+    private String barcodeNumber;
 }
