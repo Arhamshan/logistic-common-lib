@@ -34,6 +34,9 @@ public class Consignment {
     // Transactional
     private List<Item> items;
 
+    // Transactional
+    private String currentLocationCode;
+
     public Consignment(Long consId, String consignmentId) {
         this.id = consId;
         this.consignmentId = consignmentId;
