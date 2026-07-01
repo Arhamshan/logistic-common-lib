@@ -10,6 +10,5 @@ public enum ConsignmentStatus {
     OUT_FOR_DELIVERY,
     PARTIALLY_OUT_FOR_DELIVERY,
     PARTIALLY_DELIVERED,
-    DELIVERED;
-
+    DELIVERED
 }
