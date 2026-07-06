@@ -13,7 +13,7 @@ public class DeliveryAssignment {
 
     private Long id;
 
-    private Long itemId;
+    private String itemId;
 
     private Long driverUserId;
 
