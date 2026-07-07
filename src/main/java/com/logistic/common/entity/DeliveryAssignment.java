@@ -13,9 +13,9 @@ public class DeliveryAssignment {
 
     private Long id;
 
-    private String itemId;
+    private Item item;
 
-    private Long driverUserId;
+    private User driver;
 
     private String assignedBy;
 
