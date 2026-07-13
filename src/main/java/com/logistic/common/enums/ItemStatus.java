@@ -6,7 +6,9 @@ public enum ItemStatus {
     PICKED_UP("Picked Up"),
     IN_TRANSIT("In Transit"),
     OUT_FOR_DELIVERY("Out for Delivery"),
-    DELIVERED("Delivered");
+    DELIVERED("Delivered"),
+    ON_HOLD("On Hold"),
+    CANCELLED("Cancelled");
 
     private final String description;
 
