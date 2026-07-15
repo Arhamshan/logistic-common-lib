@@ -1,6 +1,5 @@
 package com.logistic.common.entity;
 
-import com.logistic.common.enums.ItemStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,25 +9,25 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Item {
+public class Notification {
 
     private Long id;
 
-    private Consignment consignment;
+    private Long consId;
 
-    private String itemId;
+    private String eventCode;
 
-    private ItemStatus status;
+    private String recipientEmail;
 
-    private String currentLocationCode;
+    private String recipientPhone;
 
-    private Float weight;
+    private String subject;
 
-    private Float height;
+    private String message;
 
-    private Float length;
+    private String status;
 
-    private Float width;
+    private LocalDateTime sentDate;
 
     private LocalDateTime createdDate;
 
@@ -37,6 +36,4 @@ public class Item {
     private LocalDateTime updatedDate;
 
     private String updatedBy;
-
-    private String barcodeNumber;
 }

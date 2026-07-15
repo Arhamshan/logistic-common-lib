@@ -4,8 +4,15 @@ package com.logistic.common.enums;
 public enum ConsignmentStatus {
     BOOKED,
     PICKED_UP,
+    PARTIALLY_PICKED_UP,
     IN_TRANSIT,
+    PARTIALLY_IN_TRANSIT,
     OUT_FOR_DELIVERY,
-    DELIVERED;
-
+    PARTIALLY_OUT_FOR_DELIVERY,
+    DELIVERED,
+    PARTIALLY_DELIVERED,
+    ON_HOLD(),
+    PARTIALLY_ON_HOLD(),
+    CANCELLED(),
+    PARTIALLY_CANCELLED();
 }

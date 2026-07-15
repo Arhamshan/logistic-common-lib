@@ -22,6 +22,8 @@ public class User {
 
         private Status status;
 
+        private Contact contact;
+
         private LocalDateTime createdDate;
 
         private String createdBy;
@@ -29,4 +31,7 @@ public class User {
         private LocalDateTime updatedDate;
 
         private String updatedBy;
+
+        // Transactional Attribute
+        private String token;
 }
