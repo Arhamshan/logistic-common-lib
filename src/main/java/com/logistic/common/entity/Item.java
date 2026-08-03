@@ -39,4 +39,7 @@ public class Item {
     private String updatedBy;
 
     private String barcodeNumber;
+
+    // Transactional field
+    private Pod pod;
 }
